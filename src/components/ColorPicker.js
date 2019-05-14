@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ColorPicker.css';
+import styles from './colorPicker.css';
 
 export default function ColorPicker() {
   const red = () => {
@@ -18,6 +18,8 @@ export default function ColorPicker() {
       <button className={styles.red} onClick={red}>Red</button>
       <button className={styles.yellow} onClick={yellow}>Yellow</button>
       <button className={styles.blue} onClick={blue}>Blue</button>
+      {/* <div className={styles[color]}></div> */}
     </section>
+  
   );
 }
