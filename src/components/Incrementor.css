@@ -1,0 +1,14 @@
+p {
+  background-color: lightgreen;
+  border: .2em dashed green;
+  width: 300px;
+  text-align: center;
+  font-size: 3em;
+}
+
+button {
+  border: groove;
+  border-radius: 15%;
+  margin-left: 120px;
+  font-size: 1em;
+}
