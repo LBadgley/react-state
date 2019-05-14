@@ -1,9 +1,10 @@
 p {
-  background-color: lightgreen;
-  border: .2em dashed green;
+  background-color: skyblue;
+  border: 4px dashed lightblue;
   width: 300px;
   text-align: center;
   font-size: 3em;
+  color: white;
 }
 
 button {
