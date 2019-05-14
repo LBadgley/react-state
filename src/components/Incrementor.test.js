@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-const Incrementor from './Incrementor.js';
+import Incrementor from './Incrementor.js';
 
 describe('incrementor test', () => {
   it('renders an incrementor', () => {
-    const wrapper = shallow(<App />);
+    const wrapper = shallow(<Incrementor />);
     expect(wrapper).toMatchSnapshot();
   }); 
 });
