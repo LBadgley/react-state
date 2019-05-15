@@ -2,18 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ColorPicker.css';
 
-function ColorPicker({ selectedColor }) {
+function ColorPicker({ setSelectedColor }) {
   return (
     <section className={styles.ColorPicker}>
-      <button className={styles.red} onClick={() =>selectedColor('red')}>red</button>
-      <button className={styles.blue} onClick={() =>selectedColor('blue')}>blue</button>
-      <button className={styles.yellow} onClick={() =>selectedColor('yellow')}>yellow</button>
+      <button className={styles.red} onClick={() =>setSelectedColor('red')}>red</button>
+      <button className={styles.blue} onClick={() =>setSelectedColor('blue')}>blue</button>
+      <button className={styles.yellow} onClick={() =>setSelectedColor('yellow')}>yellow</button>
     </section>
   );
 }
 
 ColorPicker.propTypes = {
-  selectedColor: PropTypes.func.isRequired
+  setSelectedColor: PropTypes.func.isRequired
 };
 
 export default ColorPicker;

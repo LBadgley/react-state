@@ -7,7 +7,7 @@ export default class App extends PureComponent {
     color: ''
   }
 
-  selectedColor = color => {
+  setSelectedColor = color => {
     this.setState({ color });
   }
 
@@ -15,7 +15,7 @@ export default class App extends PureComponent {
     const color = this.state.color;
     return (
     <>
-      <ColorPicker selectedColor={this.selectedColor} />
+      <ColorPicker setSelectedColor={this.setSelectedColor} />
       <ColorDisplay color={color} />
     </>
     );

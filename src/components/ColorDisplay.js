@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ColorPicker.css';
 
-function ColorDisplay({ selectedColor }) {
-  return <div className={styles.ColorDisplay} style={{ backgroundColor: selectedColor }}>{selectedColor}</div>;
+function ColorDisplay({ color }) {
+  return <div className={styles.ColorDisplay} style={{ backgroundColor: color }}>{color}</div>;
 }
 
 ColorDisplay.propTypes = {
-  selectedColor: PropTypes.string.isRequired
+  color: PropTypes.string.isRequired
 };
 
 export default ColorDisplay;
