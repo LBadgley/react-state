@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ColorPicker.css';
 
-export function ColorPicker({ selectedColor }) {
+function ColorPicker({ selectedColor }) {
   return (
     <section className={styles.ColorPicker}>
       <button className={styles.red} onClick={() =>selectedColor('red')}>red</button>
