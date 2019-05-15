@@ -1,0 +1,15 @@
+p {
+  background-color: skyblue;
+  border: 4px dashed lightblue;
+  width: 300px;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+}
+
+button {
+  border: groove;
+  border-radius: 15%;
+  margin-left: 120px;
+  font-size: 1em;
+}
