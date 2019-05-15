@@ -5,9 +5,9 @@ import styles from './ColorPicker.css';
 export function ColorPicker({ selectedColor }) {
   return (
     <section className={styles.ColorPicker}>
-      <button className={styles.red} onClick={() => selectedColor('red')}>red</button>
-      <button className={styles.blue} onClick={() => selectedColor('blue')}>blue</button>
-      <button className={styles.yellow} onClick={() => selectedColor('yellow')}>yellow</button>
+      <button className={styles.red} onClick={() =>selectedColor('red')}>red</button>
+      <button className={styles.blue} onClick={() =>selectedColor('blue')}>blue</button>
+      <button className={styles.yellow} onClick={() =>selectedColor('yellow')}>yellow</button>
     </section>
   );
 }

@@ -1,3 +1,16 @@
-div {
-  
+.ColorPicker {
+  button {
+    border: none;
+    padding: 50px;
+  }
+
+  .red {
+    background-color: rgb(212, 0, 0);
+  }
+  .blue {
+    background-color: rgb(20, 20, 255);
+  }
+  .yellow {
+    background-color: rgb(238, 255, 0);
+  }
 }
