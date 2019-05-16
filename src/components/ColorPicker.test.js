@@ -4,7 +4,7 @@ import ColorPicker from './ColorPicker';
 
 describe('color picker test', () => {
   it('renders the selected color', () => {
-    const wrapper = shallow(<ColorPicker colors={['red', 'blue', 'yellow']}/>);
+    const wrapper = shallow(<ColorPicker setSelectedColor = { jest.fn() } />);
     expect(wrapper).toMatchSnapshot();
   });
 });

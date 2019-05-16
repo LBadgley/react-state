@@ -5,8 +5,10 @@ exports[`color display test displays the color 1`] = `
   className="ColorDisplay"
   style={
     Object {
-      "backgroundColor": undefined,
+      "backgroundColor": "blue",
     }
   }
-/>
+>
+  blue
+</div>
 `;
